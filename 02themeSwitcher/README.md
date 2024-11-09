@@ -1,4 +1,19 @@
 # React + Vite
+# make sure to config tailwind
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  //to enable the dark mode
+  darkMode:"class",
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
